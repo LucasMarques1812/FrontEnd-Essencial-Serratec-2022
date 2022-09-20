@@ -1,0 +1,12 @@
+body{
+    font-family: Arial;
+    font-size: 26px;
+}
+
+p{
+    text-align: justify;
+    width: 600px;
+    border: 6px solid green;
+    background-color: gray;
+    padding: 20px 60px;
+}
