@@ -1,6 +1,14 @@
 body{
     font-family: Arial;
     font-size: 26px;
+    background-color: bisque;
+    background-image: url(../img/computador.png);
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 100px;
+    margin: auto;
 }
 
 p{
@@ -9,4 +17,5 @@ p{
     border: 6px solid green;
     background-color: gray;
     padding: 20px 60px;
+    color: blue;
 }

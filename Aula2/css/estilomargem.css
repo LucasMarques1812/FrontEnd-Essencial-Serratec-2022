@@ -1,0 +1,22 @@
+
+
+body{
+    margin: 0px;
+    font-size: 24px;
+    font-family: Arial;
+
+}
+
+.texto1, .texto2{
+    color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    width: 600px;
+    border: 6px solid green;
+    background-color: gray;
+    padding: 20px;
+    text-align: justify;
+}
+
+.texto1{
+    margin-left: 250px;
+}
