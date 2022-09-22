@@ -4,4 +4,12 @@
 
 p.verde{
     color: green;
+    font-family: 24px;
+}
+
+strong{
+    color: red;
+}
+span{
+    color: brown;
 }
