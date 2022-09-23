@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+#corpo{
+    
+    height: 500px;
+    width: 50%;
+}
+
+#imagem{
+    
+    height: 300px;
+    width: 40%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+img{
+    height: 300px;
+    width: 100%;
+}
