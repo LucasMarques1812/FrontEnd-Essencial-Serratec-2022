@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoisting</title>
+</head>
+<body>
+    <script>
+    //Hoisting - Joga pro topo todas as definições de variaveis
+        x = 100;
+        y = 1000;
+        const a= {nome: "Mariana", telefone:"2334-9009", salario:1100}
+        a.nome ="Maria";
+        document.write(a.nome + "-" + a.salario + "<br>")
+        
+        document.write(x + "<br>");
+        document.write(y + "<br>");
+        var x;
+        var y;
+
+
+        if(true){
+        let c = 100;
+        document.write("variavel c:" +c + "<br>");
+        }
+
+        if(true){
+            var b = 1000;
+        }
+        
+        document.write("variável b:" +b + "<br>");
+    </script>
+</body>
+</html>
