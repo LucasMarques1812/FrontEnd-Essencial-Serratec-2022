@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 150px;
+            height: 150px;
+            border: 1px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <div id="caixa" onmouseover="alterarCor(this,'#f06')" onmouseout="alterarCor(this,'#fff')">
+        <button onclick="alert('Curso de HTML')" onmouseover="alterarPosicao(this)">Enviar</button>
+    </div>
+    
+    <script>
+            function alterarCor(obj, cor){
+                obj.style.backgroundColor=cor;
+            }
+
+            function alterarPosicao(obj){
+                obj.style.position="absolute";
+                obj.style.backgroundColor="green";
+                obj.style.left = Math.round()*400 + 'px';
+                obj.style.top = Math.round()*400 + 'px';
+            }
+    </script>
+</body>
+</html>
