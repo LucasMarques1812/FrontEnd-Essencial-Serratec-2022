@@ -1,0 +1,21 @@
+/*
+h1{
+    font-size: 20px;
+    color aqua
+}
+*/
+
+#titulo{
+    font-size: 24px;
+    color: brown;
+}
+
+.exemplo{
+    font-size: 64 px;
+    color: green;
+}
+
+h1{
+    font-size: 48px;
+    color: red;
+}

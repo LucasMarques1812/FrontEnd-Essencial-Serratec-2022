@@ -1,0 +1,39 @@
+/*usando pseudo classes*/
+.meu-link:link {
+    color: green;
+}
+
+.meu-link:visited{
+    color: red;
+}
+
+.meu-link:hover{
+    color: orange;
+}
+
+.disciplinas{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.disciplinas.li{
+    color: aqua;
+}
+
+.disciplinas li:first-child{
+    color: brown;
+}
+
+.disciplinas li:last-child{
+    color: green;
+}
+
+.conteudo div{
+    font-family: Arial;
+    color:black;
+    border: 1px solid green;
+}
+
+.conteudo div:nth-child(odd){
+    background-color: gray;
+}
